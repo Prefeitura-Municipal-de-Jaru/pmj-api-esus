@@ -13,7 +13,6 @@ O serviço se conecta diretamente ao banco de dados oficial do **e-SUS APS Pront
   - O nome do paciente é anonimizado em nível de banco de dados, exibindo apenas as iniciais (ex.: `M. S. S.`).
   - O Cartão Nacional de Saúde (CNS) tem os dígitos centrais ofuscados (ex.: `123********4567`).
   - Nenhuma informação clínica, diagnóstico, CID ou dado sensível de saúde é retornado pela API.
-- **Sem Erros Silenciosos ou Dados Falsos:** Respostas transparentes com códigos HTTP reais (200, 400, 404, 503).
 - **Desempenho e Segurança:** Consultas parametrizadas (proteção contra SQL Injection), limitação de requisições por IP (*Rate Limiting*), cabeçalhos de segurança (*Helmet*) e suporte a *CORS* configurável.
 
 ---

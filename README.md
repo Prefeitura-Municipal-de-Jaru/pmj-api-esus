@@ -58,6 +58,7 @@ Retorna a listagem paginada da fila de espera.
 
 - **Node.js** v20.x ou superior (caso execute diretamente na máquina/VM)
 - **PostgreSQL** 9.6 ou superior (versão utilizada pela instalação do e-SUS PEC)
+- **Credenciais E-SUS** Você encontra no diretorio do e-sus aonde foi instalado, usar credenciais de leitura.
 - Ou **Docker** e **Docker Compose**
 
 ---

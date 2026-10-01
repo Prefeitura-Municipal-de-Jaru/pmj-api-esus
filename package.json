@@ -1,0 +1,42 @@
+{
+  "name": "esus-fila-ubs-api",
+  "version": "1.0.0",
+  "description": "API Open Source para Transparência da Fila de Espera e Agendamentos das Unidades Básicas de Saúde (UBS) integrada ao e-SUS APS PEC",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [
+    "transparencia",
+    "saude-publica",
+    "esus",
+    "pec",
+    "ubs",
+    "fila-de-espera",
+    "open-source",
+    "governo-aberto",
+    "lgpd"
+  ],
+  "author": "Daniel Beling - Departamento de Tecnologia da Informação (Prefeitura Municipal de Jaru)",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "pg": "^8.13.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.4",
+    "@types/pg": "^8.11.11",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
